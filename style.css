@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	padding: 1rem;
+}
+
+.Nav {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+	justify-content: center;
+	justify-content: space-between;
+	color: white;
+}
+
+hr {
+	height: 5px;
+	background-color: black;
+	width: 1225px;
+}
+
+.toto {
+	display: flex;
+	background-color: blue;
+	border-radius: 20px;
+	width: 357px;
+	height: 57px;
+	justify-content: center;
+	align-items: center;
+}
+
+.rouge {
+	display: flex;
+	background-color: red;
+	width: 630px;
+	height: 57px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.my {
+	position: relative;
+	display: flex;
+	left: 37px;
+	width: 487px;
+	height: 79px;
+}
+
+.photo {
+	position: relative;
+	display: flex;
+	top: 50px;
+	padding: 1rem;
+	flex-direction: row;
+}
+
+.item {
+	position: relative;
+	display: flex;
+	font-size: x-large;
+}
+
+.image {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 15px;
+	top: 50px;
+}
+.bus {
+	height: 40%;
+}
+
+.casse {
+	width: 50%;
+}
+
+.ancienne {
+	width: 50%;
+}
+
+.chere {
+	width: 45%;
+	flex-grow: 50px;
+}
+
+.About {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 70px;
+}
+
+.btn {
+	background-color: blue;
+	color: white;
+	width: 130px;
+	height: 50px;
+	border-radius: 20px;
+}
